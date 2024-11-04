@@ -12,11 +12,11 @@ public class ArrayRataNilai27 {
         }
         for (int i = 0; i < nilaiMhs.length; i++) {
             total += nilaiMhs[i];
-            if (nilaiMhs[i]>70) {
-                System.out.println("Mahasiswa yang lulus : " + nilaiMhs);
-            }
+            //if (nilaiMhs[i]>70) {
+              //  System.out.println("Mahasiswa yang lulus : " + nilaiMhs);
+            //}
         }
-        //rata2 = total/nilaiMhs.length;
-        //System.out.println("Rata-rata nilai = "+rata2);
+        rata2 = total/nilaiMhs.length;
+        System.out.println("Rata-rata nilai = "+rata2);
     }
 }
